@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+ <title>Keggers</title>
+ <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+ <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+ <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+ <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+ <!-- Latest compiled and minified JavaScript -->
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+<body>
+ <div class="container">
+   <p>
+     Congratulations, your keg has been reserved!
+     <a href="index.html">Click to go back to Keggers' home page.</a>
+     <h2>Type in your e-mail address to have your reservation number sent to it. Bring it with you to the store to verify purchase.</h2>
+     <form id="contact-form" class="contact" name="contact-form" method="post" action="send-confirmation-email.php">
+         <div class="form-group">
+             <input type="email" name="email" class="form-control mail-field" required="required" placeholder="Your Email">
+         </div>
+         <div class="form-group">
+             <button type="submit" class="btn btn-primary">Send Reservation Number</button>
+         </div>
+     </form>
+     </p>
+ </div>
+
+</body>
+</html>
