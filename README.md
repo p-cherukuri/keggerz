@@ -2,5 +2,5 @@
 ## by Phanindra Cherukuri
 Making it easy to find kegs of your choice near you.  
   
-  [Initial Release link](http://iti410-fall15.rutgers-sci.domains/group2/Keggers_Final/index.html)
-
+  [Prototype Release link](http://iti410-fall15.rutgers-sci.domains/group2/Keggers_Final/index.html)  
+  [Mockup Link](googledrive.com/host/0B-CNTkqYFAwMTXhSOWZEUHU2WDQ/index.html)
